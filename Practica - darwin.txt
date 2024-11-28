@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Esto es una página de prueba">
+	<title>Página de prueba HTML</title>
+  </head>
+
+<body>
+<!-- Ejercicio 1: Uso Básico de Etiquetas de Formato de Texto -->
+
+<p>Esto es un texto de prueba donde se estará enseñando el formato de texto en <strong> negrita </strong> y la <em> cursiva <em>.
+
+<!-- Ejercicio 2: Creación de Listas -->
+
+<h1>Lista de formatos de textos utilizados </h1>
+
+<ol> 
+   <li>Etiqueta <strong> para el negrita</li>
+   <li>Etiqueta <em> para la cursiva</li>
+</ol>
+
+<h1>Esos formatos son efectivos en:</h1>
+<ul>
+   <li>Cuando se quiera hacer enfasis en le tema que se está hablando</li>
+   <li>Cuando hay que aclarar algo en el tema. </li>
+</ul>
+
+<!--Parte2: Ejercicio 1: Enlaces a Páginas Externas -->
+
+<h2>Página de libros</h2>
+<a href="https://www.academia.edu/" target="_blanck">Academia.Edu</a>
+<h2>Página de videos</h2>
+<a href="https://www.youtube.com/" target="_blanck">Youtube</a>
+<h2>Página de articulos</h2>
+<a href="https://jumbo.com.do/" target="_blanck">Jumbo</a>
+
+<!--Ejercicio 2: Navegación Interna en un Documento -->
+
+<h1>HTML</h1>
+
+<li href="#HTML">¿Qué es HTML?</li>
+<li href="#Historia">Historia</li>
+
+<section>
+  <h2 id="HTML">¿Qué es HTML?</h2>
+
+       <p>El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar 
+          y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser 
+          párrafos, una lista con viñetas, o imágenes y tablas de datos. Como lo sugiere el
+          título, este artículo te dará una comprensión básica de HTML y cúal es su función.</p>
+
+  <h2 id="Historia">Historia de html</h2>  
+
+        <p>El origen de HTML se remonta a 1980, cuando el físico Tim Berners-Lee, investigador
+           del CERN (Organización Europea para la Investigación Nuclear) propuso un nuevo sistema
+           de “hipertexto” para compartir documentos. Los sistemas de hipertexto habían sido
+           desarrollados años antes</p>
+
+</section>
+
+<!--Ejercicio 3: Enlaces a Documentos Descargables -->
+
+<a href="Logo_youtube.png" download>Descargar logo de youtube</a>
+
+<!--Ejercicio 4: Crear una Barra de Navegación Simple -->
+
+<nav>
+  <ul>
+	<li><a href="#inicio.html">Inicio</a></li>
+	<li><a href="#catálogo.html">Catálogo</a></li>
+	<li><a href="#Nosotros.html">Nosotros</a></li>
+	<li><a href="#Contacto.html">Contacto</a></li>
+  </ul>
+</nav>
+
+
+<!-- Parte 3: Ejercicio 1: Galería de Imágenes Simple -->
+
+<ul>
+   <li><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeN6s5kEFy78PYngUYC_ZR1Myv-Nt3-hwUQg&s"> <img href="Logo_jumbo.png" alt="Logo de Jumbo"> </a></li>
+
+   <li><a href="https://media.istockphoto.com/id/1157655660/es/foto/suv-rojo-gen%C3%A9rico-sobre-un
+    -fondo-blanco-vista-lateral.jpg?s=612x612&w=0&k=20&c=0I2xA9oCnNUfluy5m1ErkM4NwHQOkhDUr2HwKXNO1z8=">  <img href="Imagen_carro.jpg" alt="Imagen de un carro"></a></li> 
+
+   <li><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9zXJNyANS8TG8NHjHX4hUdaU_Q6VQSKaMQg&s"> <img href="Imagen_comida.jpg" alt="Imagen de un plato de comida"> </a></li>
+
+   <li><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIibPbOeDQQscm9g-fDNdCvROokQJukg8nYQ&s"> <img href="Imagen_pizza.jpg" alt="Imagen de una pizza">  </a></li>
+
+   <li><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3jZzfHw8EgYPkLgREvUjwJH-kYuuTtvvjZg&s">  <img href="Imagen_hospital.jpg" alt="Imagen de una sala de hospital"></a></li>
+</ul>
+
+<!-- Ejercicio 2: Menú de Navegación con Íconos -->
+
+<nav> 
+   <a href="#Inicio"> <img href="https://cdn-icons-png.flaticon.com/512/3388/3388845.png" alt="Inicio"></a>
+   <a href="#Nosotros"> <img href="https://cdn-icons-png.flaticon.com/512/15/15659.png" alt="Nosotros"></a>
+   <a href="#Contactos"> <img href="https://img.freepik.com/vector-premium/icono-contacto_419328-2095.jpg" alt=""></a>
+</nav>
+
+
+</body>
+</html?
+     
+
